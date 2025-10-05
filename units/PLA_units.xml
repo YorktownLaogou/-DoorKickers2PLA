@@ -1,0 +1,69 @@
+﻿<Units>
+	<Unit name="PLA_" nameUI="PLA" description="The history of the PLA can be traced back to the Nanchang Uprising on August 1, 1927. Later, It is now considered the first military power in Asia and the second in the world." flagTex="data/textures/PLA_bg.dds" flagColor="de2910" rndNameEntry="@#squadnamePLA">
+	<Classes>
+		<Class name="PLA_Assault" nameUI="ASSAULT GROUP" numSlots="10" supply="65" iconTex="data/textures/gui/deploy/class_icon_blackops.dds"/>
+		<Class name="PLA_Recon" nameUI="RECON" numSlots="4" supply="65" iconTex="data/textures/gui/deploy/class_icon_marksman.dds"/>
+		<Class name="PLA_Sabotage" nameUI="SABOTAGE" numSlots="4" supply="65" iconTex="data/textures/gui/deploy/class_icon_grenadier.dds"/>
+		<Class name="PLA_Support" nameUI="SUPPORT" numSlots="4" supply="65" iconTex="data/textures/gui/deploy/class_icon_nowheraki_militia.dds"/>
+		<Class name="PLA_StateSecurity" nameUI="UNDERCOVER" numSlots="4" supply="65" iconTex="data/textures/gui/deploy/class_icon_undercover.dds"/>
+	</Classes>
+	<TrooperRanks>
+		<Rank name="Ryadovoy" xpNeeded="0" badgeTex="data/textures/gui/customization/rgf_rank_01.dds"/>
+		<Rank name="Yefreytor" xpNeeded="700" badgeTex="data/textures/gui/customization/rgf_rank_02.dds"/>
+		<Rank name="Mladshiy Serzhant" xpNeeded="2300" badgeTex="data/textures/gui/customization/rgf_rank_03.dds"/>
+		<Rank name="Serzhant" xpNeeded="5600" badgeTex="data/textures/gui/customization/rgf_rank_04.dds"/>
+		<Rank name="Starshiy Serzhant" xpNeeded="11800" badgeTex="data/textures/gui/customization/rgf_rank_05.dds"/>
+		<Rank name="Starshina" xpNeeded="22400" badgeTex="data/textures/gui/customization/rgf_rank_06.dds"/>
+		<Rank name="Mladshiy Leytenant" xpNeeded="38400" badgeTex="data/textures/gui/customization/rgf_rank_07.dds"/>
+		<Rank name="Leytenant" xpNeeded="60200" badgeTex="data/textures/gui/customization/rgf_rank_08.dds"/>
+		<Rank name="Starshiy Leytenant" xpNeeded="86400" badgeTex="data/textures/gui/customization/rgf_rank_09.dds"/>
+		<Rank name="Kapitan" xpNeeded="126400" badgeTex="data/textures/gui/customization/rgf_rank_10.dds"/>
+	</TrooperRanks>
+	<Ranks>
+		<Rank xpNeeded="0" badgeTex=""/>
+		<Rank xpNeeded="4000" badgeTex=""/>
+		<Rank xpNeeded="9000" badgeTex=""/>
+		<Rank xpNeeded="14980" badgeTex=""/>
+		<Rank xpNeeded="21920" badgeTex=""/>
+		<Rank xpNeeded="29800" badgeTex=""/>
+		<Rank xpNeeded="38600" badgeTex=""/>
+		<Rank xpNeeded="48310" badgeTex=""/>
+		<Rank xpNeeded="58900" badgeTex=""/>
+		<Rank xpNeeded="70360" badgeTex=""/>
+		<Rank xpNeeded="82680" badgeTex=""/>
+		<Rank xpNeeded="95820" badgeTex=""/>
+		<Rank xpNeeded="109790" badgeTex=""/>
+		<Rank xpNeeded="124550" badgeTex=""/>
+		<Rank xpNeeded="140100" badgeTex=""/>
+		<Rank xpNeeded="156420" badgeTex=""/>
+	</Ranks>
+
+<Doctrine doctrinePointsPerSquadLevel="2">
+<Node name="CIA_Disguises" minSquadLevel="13"/>
+<Node name="CIA_LocalCustoms" minSquadLevel="13"/>
+<Node name="CIA_HumintNetwork" minSquadLevel="13">
+<Node name="CIA_AdvancedIntel"/>
+</Node>
+<Node name="CIA_Language" minSquadLevel="13">
+<Node name="CIA_AdvancedLanguage">
+<Node name="CIA_Persuasion"/>
+</Node>
+</Node>
+<Node name="CIA_Hand2Hand" minSquadLevel="13"/>
+<Node name="NWS_ShieldSpeed"/>
+<Node name="NWS_ShieldAccuracy"/>
+<Node name="NWS_ImprovedStacking">
+<Node name="NWS_StackTactics"/>
+<Node name="NWS_ShieldBrace"/>
+</Node>
+<Node name="NWS_ShieldReload"/>
+<Node name="NWS_ShieldSpeed"/>
+<Node name="NWS_ShieldAccuracy"/>
+<Node name="NWS_ImprovedStacking">
+<Node name="NWS_StackTactics"/>
+<Node name="NWS_ShieldBrace"/>
+</Node>
+<Node name="NWS_ShieldReload"/>
+</Doctrine>
+</Unit>
+</Units>

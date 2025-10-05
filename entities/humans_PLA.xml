@@ -1,0 +1,188 @@
+﻿<Entities>
+<!--            PLA_Human            -->
+<Entity name="PLA_Assault" type="Human" editorAutoHeight="false">
+	<RenderObject3D model="data/models/humans/swat_assaulter.khm" diffuseTex="data/models/humans/swat_assaulter.dds"/>
+	<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+	<PhysicalParams health="100"/>
+	<Human type="GoodGuy" unit="PLA_" class="PLA_Assault">
+		<Id name="PLA_Recon" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="nws_male"/>
+		<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+		<Brain suppressionRecovery="30.0"/>
+		<Mobility>
+			<MoveSpeed min="1.2" defaultMetersPerSec="2.28" max="10"/>
+			<TurnSpeed min="7" defaultMetersPerSec="13" max="20"/>
+		</Mobility>
+		<Equipment>
+			<Item name="Type 56 NWS"/>
+			<Item name="IronSights"/>
+			<Item name="G17 Pistol CIA BOps"/>
+			<Item name="IronSights_Pistol"/>
+			<Item name="Flashbang Single"/>
+
+			<Item name="CapUndercover"/>
+			<Item name="Lockpick"/>
+		</Equipment>
+	</Human>
+</Entity>
+
+<Entity name="PLA_Recon" type="Human" editorAutoHeight="false">
+	<RenderObject3D model="data/models/humans/swat_assaulter.khm" diffuseTex="data/models/humans/swat_assaulter.dds"/>
+	<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+	<PhysicalParams health="100"/>
+	<Human type="GoodGuy" unit="PLA_" class="PLA_Recon">
+		<Id name="PLA_Recon" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="nws_male"/>
+		<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+		<Brain suppressionRecovery="30.0"/>
+		<Mobility>
+			<MoveSpeed min="1.2" defaultMetersPerSec="2.28" max="10"/>
+			<TurnSpeed min="7" defaultMetersPerSec="13" max="20"/>
+		</Mobility>
+		<Equipment>
+			<Item name="Type 56 NWS"/>
+			<Item name="IronSights"/>
+			<Item name="G17 Pistol CIA BOps"/>
+			<Item name="IronSights_Pistol"/>
+			<Item name="Flashbang Single"/>
+
+			<Item name="CapUndercover"/>
+			<Item name="Lockpick"/>
+		</Equipment>
+	</Human>
+</Entity>
+
+<Entity name="PLA_Sabotage" type="Human" editorAutoHeight="false">
+	<RenderObject3D model="data/models/humans/swat_assaulter.khm" diffuseTex="data/models/humans/swat_assaulter.dds"/>
+	<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+	<PhysicalParams health="100"/>
+	<Human type="GoodGuy" unit="PLA_" class="PLA_Sabotage">
+		<Id name="PLA_Recon" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="nws_male"/>
+		<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+		<Brain suppressionRecovery="30.0"/>
+		<Mobility>
+			<MoveSpeed min="1.2" defaultMetersPerSec="2.28" max="10"/>
+			<TurnSpeed min="7" defaultMetersPerSec="13" max="20"/>
+		</Mobility>
+		<Equipment>
+			<Item name="Type 56 NWS"/>
+			<Item name="IronSights"/>
+			<Item name="G17 Pistol CIA BOps"/>
+			<Item name="IronSights_Pistol"/>
+			<Item name="Flashbang Single"/>
+
+			<Item name="CapUndercover"/>
+			<Item name="Lockpick"/>
+		</Equipment>
+	</Human>
+</Entity>
+
+<Entity name="PLA_Support" type="Human" editorAutoHeight="false">
+	<RenderObject3D model="data/models/humans/swat_assaulter.khm" diffuseTex="data/models/humans/swat_assaulter.dds"/>
+	<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+	<PhysicalParams health="100"/>
+	<Human type="GoodGuy" unit="PLA_" class="PLA_Support">
+		<Id name="PLA_Recon" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="nws_male"/>
+		<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+		<Brain suppressionRecovery="30.0"/>
+		<Mobility>
+			<MoveSpeed min="1.2" defaultMetersPerSec="2.28" max="10"/>
+			<TurnSpeed min="7" defaultMetersPerSec="13" max="20"/>
+		</Mobility>
+		<Equipment>
+			<Item name="Type 56 NWS"/>
+			<Item name="IronSights"/>
+			<Item name="G17 Pistol CIA BOps"/>
+			<Item name="IronSights_Pistol"/>
+			<Item name="Flashbang Single"/>
+
+			<Item name="CapUndercover"/>
+			<Item name="Lockpick"/>
+		</Equipment>
+	</Human>
+</Entity>
+
+<Entity name="PLA_StateSecurity" type="Human" editorAutoHeight="false">
+	<RenderObject3D model="data/models/humans/swat_assaulter.khm" diffuseTex="data/models/humans/swat_assaulter.dds"/>
+	<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+	<PhysicalParams health="100"/>
+	<Human type="GoodGuy" unit="PLA_" class="PLA_StateSecurity">
+		<Id name="PLA_Recon" portrait="data/textures/portraits/ranger2.dds" gender="0" voicePack="nws_male"/>
+		<FOV degrees="90" distanceMeters="999" eyeRadiusMeters="0.6"/>
+		<Brain suppressionRecovery="30.0"/>
+		<Mobility>
+			<MoveSpeed min="1.2" defaultMetersPerSec="2.28" max="10"/>
+			<TurnSpeed min="7" defaultMetersPerSec="13" max="20"/>
+		</Mobility>
+		<Equipment>
+			<Item name="Type 56 NWS"/>
+			<Item name="IronSights"/>
+			<Item name="G17 Pistol CIA BOps"/>
+			<Item name="IronSights_Pistol"/>
+			<Item name="Flashbang Single"/>
+
+			<Item name="CapUndercover"/>
+			<Item name="Lockpick"/>
+		</Equipment>
+	</Human>
+</Entity>
+
+<!--            Other            -->
+<Entity name="nomodel" type="Projectile" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D model="data/models/equipment/nomodel.khm" skipGOSSAO="true" disableDecals="true" diffuseTex=""/>
+</Entity>
+<Entity name="ak_mag_btrs" type="BasicEntity" editorTags="weapon">
+<PhysicalParams physicsEnabled="true" density="100" solid="false"/>
+<RenderObject3D model="data/models/environment/interior/rpk74_mag.khm" diffuseTex="data/models/weapons/ak_mag_btrs.dds"/>
+</Entity>
+<Entity name="Bullet7N21 BTRS" type="BulletShell" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D model="data/textures/fx/bullet_shell_7n21_btrs.khm" diffuseTex="data/textures/fx/bullet_shell_7n21_btrs.dds" skipGOSSAO="true" disableDecals="true" skipSSAO="true"/>
+</Entity>
+<Entity name="Bullet545 BTRS" type="BulletShell" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D model="data/textures/fx/bullet_shell_545_btrs.khm" diffuseTex="data/textures/fx/bullet_shell_545_btrs.dds" skipGOSSAO="true" disableDecals="true" skipSSAO="true"/>
+</Entity>
+<Entity name="Bullet762R BTRS" type="BulletShell" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D model="data/textures/fx/bullet_shell_762r_btrs.khm" diffuseTex="data/textures/fx/bullet_shell_762r_btrs.dds" skipGOSSAO="true" disableDecals="true" skipSSAO="true"/>
+</Entity>
+<Entity name="DiscardedRpg7v2 BTRS" type="BasicEntity" hideInEditor="true">
+<PhysicalParams physicsEnabled="true" solid="false" density="32"/>
+<RenderObject3D model="data/models/weapons/rpg7v2_btrs.khm" diffuseTex="data/models/weapons/rpg7v2_btrs.dds"/>
+</Entity>
+<Entity name="RGD5 BTRS" type="Projectile" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D model="data/models/equipment/rgd5_projectile_btrs.khm" skipGOSSAO="true" disableDecals="true" diffuseTex="data/models/equipment/rgd5_btrs.dds">
+<Specular shininess="32" intensity="4.0"/>
+</RenderObject3D>
+</Entity>
+<Entity name="RDG2 BTRS" type="Projectile" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D model="data/models/equipment/rdg2_projectile_btrs.khm" skipGOSSAO="true" disableDecals="true" diffuseTex="data/models/equipment/rdg2_btrs.dds"/>
+</Entity>
+<Entity name="PG7VLBody BTRS" type="Projectile" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D attachSlot="muzzle" model="data/models/weapons/pg7vl_flight_btrs.khm" diffuseTex="data/models/weapons/rpg7_rockets_btrs.dds">
+<Specular shininess="32" intensity="4.0"/>
+</RenderObject3D>
+<AnimationSet name="pg7vr_rocket"/>
+</Entity>
+<Entity name="OG7VBody BTRS" type="Projectile" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D attachSlot="muzzle" model="data/models/weapons/og7v_flight_btrs.khm" diffuseTex="data/models/weapons/rpg7_rockets_btrs.dds">
+<Specular shininess="32" intensity="4.0"/>
+</RenderObject3D>
+<AnimationSet name="og7v_rocket"/>
+</Entity>
+<Entity name="PG7VRBody BTRS" type="Projectile" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D attachSlot="muzzle" model="data/models/weapons/pg7vr_flight_btrs.khm" diffuseTex="data/models/weapons/rpg7_rockets_btrs.dds">
+<Specular shininess="32" intensity="4.0"/>
+</RenderObject3D>
+<AnimationSet name="pg7vr_rocket"/>
+</Entity>
+<Entity name="VOG25Body BTRS" type="Projectile" hideInEditor="true">
+<PhysicalParams solid="false"/>
+<RenderObject3D model="data/models/weapons/vog25_btrs.khm" diffuseTex="data/models/weapons/vog25_btrs.dds"/>
+</Entity>
+</Entities>

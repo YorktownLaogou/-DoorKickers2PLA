@@ -1,20 +1,19 @@
 <Equipment>
 	<Bind eqp="F-1 Grenade Pylons">
-		<to name="Rangers"/>
-		<to name="BlackOps"/>
+		<to name="PLA_"/>
 	</Bind>
 	<Grenade name="F-1 Grenade Pylons" inventoryBinding="SupportGear1"
-			quantity="12"
+		quantity="12"
 
-			tooltip="F-1 Grenade Pylons"
-			description="Grenades with great lethality from the USSR, be careful not to injure the hostages and yourself by mistake"
-			img="data/models/equipment/F1_grenade_kit_ui.dds"
-			movie="data/movies/frag.ogv"
+		tooltip="F-1 Grenade Pylons"
+		description="Grenades with great lethality from the USSR, be careful not to injure the hostages and yourself by mistake"
+		img="data/models/equipment/F1_grenade_kit_ui.dds"
+		movie="data/movies/frag.ogv"
 
-			animationSet="grenade"
-			soundUse="grenade_use"
-			soundUseVoice="VOX_GEAR_FRAG"
-		>
+		animationSet="grenade"
+		soundUse="grenade_use"
+		soundUseVoice="VOX_GEAR_FRAG"
+	>
 		<RenderObject3D model="data/models/equipment/frag_grenade.khm" skipGOSSAO="true" diffuseTex="data/models/equipment/frag_grenade.dds"/>
 		<ConcealmentModifier add="-10"/>
 		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="0"/>

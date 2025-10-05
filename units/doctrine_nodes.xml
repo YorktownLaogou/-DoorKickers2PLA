@@ -1,0 +1,16 @@
+﻿<DoctrineNodes>
+<Node name="CIA_LocalCustoms" nameUI="Local Customs" description="" texturePrefix="data/textures/gui/doctrines/doctrine_local_customs"> </Node>
+<Node name="CIA_Disguises" nameUI="Disguises" description="" texturePrefix="data/textures/gui/doctrines/doctrine_disguise"> </Node>
+<Node name="CIA_Language" nameUI="Language" description="" texturePrefix="data/textures/gui/doctrines/doctrine_language_basics"> </Node>
+<Node name="CIA_AdvancedLanguage" nameUI="Advanced Language" description="" texturePrefix="data/textures/gui/doctrines/doctrine_advanced_language"> </Node>
+<Node name="CIA_Persuasion" nameUI="Persuasion" description="" texturePrefix="data/textures/gui/doctrines/doctrine_persuasion"> </Node>
+<Node name="CIA_HumintNetwork" nameUI="Humint Network" description="" texturePrefix="data/textures/gui/doctrines/doctrine_humint_network"> </Node>
+<Node name="CIA_AdvancedIntel" nameUI="Advanced Intel" description="" texturePrefix="data/textures/gui/doctrines/doctrine_adv_intel"> </Node>
+<Node name="CIA_Hand2Hand" nameUI="Hand 2 Hand" description="" texturePrefix="data/textures/gui/doctrines/doctrine_advanced_combatives"> </Node>
+<Node name="NWS_ShieldSpeed" nameUI="Shield Speed" description="" texturePrefix="data/textures/gui/doctrines/doctrine_shield_speed"> </Node>
+<Node name="NWS_ShieldAccuracy" nameUI="Shield Accuracy" description="" texturePrefix="data/textures/gui/doctrines/doctrine_shield_accuracy"> </Node>
+<Node name="NWS_ImprovedStacking" nameUI="Improved Stacking" description="" texturePrefix="data/textures/gui/doctrines/doctrine_improved_stacking"> </Node>
+<Node name="NWS_StackTactics" nameUI="Stack Tactics" description="" texturePrefix="data/textures/gui/doctrines/doctrine_stack_tactics"> </Node>
+<Node name="NWS_ShieldBrace" nameUI="Shield Brace" description="" texturePrefix="data/textures/gui/doctrines/doctrine_shield_brace"> </Node>
+<Node name="NWS_ShieldReload" nameUI="Shield Reload" description="" texturePrefix="data/textures/gui/doctrines/doctrine_shield_reload"> </Node>
+</DoctrineNodes>
