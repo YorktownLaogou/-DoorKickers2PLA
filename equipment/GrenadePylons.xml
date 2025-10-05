@@ -1,0 +1,82 @@
+<Equipment>
+	<Bind eqp="F-1 Grenade Pylons">
+		<to name="Rangers"/>
+		<to name="BlackOps"/>
+	</Bind>
+	<Grenade name="F-1 Grenade Pylons" inventoryBinding="SupportGear1"
+			quantity="12"
+
+			tooltip="F-1 Grenade Pylons"
+			description="Grenades with great lethality from the USSR, be careful not to injure the hostages and yourself by mistake"
+			img="data/models/equipment/F1_grenade_kit_ui.dds"
+			movie="data/movies/frag.ogv"
+
+			animationSet="grenade"
+			soundUse="grenade_use"
+			soundUseVoice="VOX_GEAR_FRAG"
+		>
+		<RenderObject3D model="data/models/equipment/frag_grenade.khm" skipGOSSAO="true" diffuseTex="data/models/equipment/frag_grenade.dds"/>
+		<ConcealmentModifier add="-10"/>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="0"/>
+
+		<ModifiableParams
+			changeInTime="0"
+			changeOutTime="0"
+			throwTime="1000"
+			throwTimeCorner="1400"
+		/>
+
+		<Projectile
+			bodyTemplate="FragGrenade"
+			pathIconTexture="data/textures/gui/contextual/pathicon_stinger_active.tga"
+
+			soundExplosion="frag_expl"
+			soundHitFloor="grenade_hit_floor"
+
+			friendlyFire="true"
+			triggerOnImpact="false"
+			triggerTimeAfterTargetHitMsec="1000"
+
+			physicsDetonationForce="0"
+			audibleLaunchSoundRadius="0"
+			audibleDetonationSoundRadius="300">
+
+			<!-- spawn these when exploding -->
+			<FX
+				particles="Flashbang"
+				entity1="ExplosionLight"
+				entity2="explosion_mark"
+				randRotation2="true"
+				entity3="FX_dust_small"
+				deleteAfterMS3="20000"
+				anim2D="">
+			</FX>
+
+			<EffectRange radiusMeters="10">
+				<StunEffect chancePercent="100" innerRangeTimeMSec="1500" outerRangeTimeMSec="1500"/>
+				<DamageEffect chancePercent="100" damage="100" damageType="1"/>
+				<ScatterEffect chancePercent="100" armorPenetration="3"/>
+				<SuppressEffect amount="20"/>
+				<SmokeEffect durationMSec="700" />
+			</EffectRange>
+			<EffectRange radiusMeters="15">
+				<StunEffect chancePercent="100" innerRangeTimeMSec="1500" outerRangeTimeMSec="1500"/>
+				<DamageEffect chancePercent="60" damage="80" damageType="1"/>
+				<ScatterEffect chancePercent="100" armorPenetration="3"/>
+				<SuppressEffect amount="20"/>
+			</EffectRange>
+			<EffectRange radiusMeters="30">
+				<StunEffect chancePercent="100" innerRangeTimeMSec="1500" outerRangeTimeMSec="1500"/>
+				<DamageEffect chancePercent="30" damage="40" damageType="1"/>
+				<ScatterEffect chancePercent="100" armorPenetration="3"/>
+				<SuppressEffect amount="20"/>
+			</EffectRange>
+			<EffectRange radiusMeters="40">
+				<StunEffect chancePercent="100" innerRangeTimeMSec="800" outerRangeTimeMSec="500"/>
+				<DamageEffect chancePercent="100" damage="1" damageType="1"/>
+				<ScatterEffect chancePercent="100" rangeMeters="3" armorPenetration="0"/>
+				<SuppressEffect amount="20"/>
+			</EffectRange>
+		</Projectile>
+	</Grenade>
+</Equipment>

@@ -1,0 +1,9 @@
+<ActionWaypoints>
+	<wp
+		type="THROW_GRENADE"
+		equipment="F-1 Grenade Pylons"
+		ui_prefix="data/textures/gui_ingame/waypoints/F1"
+		ttip="Throw F-1 grenade"
+		ttip_disabled="@menu_generic_cannot_use"
+		ttip_empty="@menu_game_fg_none_ttip"/>
+</ActionWaypoints>

@@ -1,0 +1,11 @@
+<Equipment>
+	<Bind eqp="NWS Shield Lvl III">
+		<to name="Rangers"/>
+		<to name="BlackOps"/>
+	</Bind>
+
+	<Bind eqp="NWS Shield Lvl IV">
+		<to name="Rangers"/>
+		<to name="BlackOps"/>
+  	</Bind>
+</Equipment>
